@@ -18,7 +18,7 @@ While working on any time series data, we have to go through many Data proproces
 <meta name=application-name content="Faraz Akhtar">
 <meta name=apple-mobile-web-app-title content="Faraz Akhtar"><link rel="shortcut icon" type=image/x-icon href=/favicon.ico>
 <link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
-<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=manifest href=/site.webmanifest><link rel=canonical href=http://frzkhtr.github.io/projects/end_2_end_forecating/><link rel=prev href=http://frzkhtr.github.io/projects/project/><link rel=stylesheet href=/lib/normalize/normalize.min.css><link rel=stylesheet href=/css/style.min.css><link rel=stylesheet href=/lib/fontawesome-free/all.min.css><link rel=stylesheet href=/lib/animate/animate.min.css><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"End To End Time Series Forecasting Solution","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"http:\/\/frzkhtr.github.io\/projects\/end_2_end_forecating\/"},"genre":"projects","wordcount":145,"url":"http:\/\/frzkhtr.github.io\/projects\/end_2_end_forecating\/","datePublished":"2021-08-04T16:40:50+05:30","dateModified":"2021-08-04T16:40:50+05:30","publisher":{"@type":"Organization","name":"Author"},"author":{"@type":"Person","name":"Author"},"description":""}</script></head>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=manifest href=/site.webmanifest><link rel=canonical href=http://frzkhtr.github.io/projects/end_2_end_forecating/><link rel=prev href=http://frzkhtr.github.io/projects/project/><link rel=stylesheet href=/lib/normalize/normalize.min.css><link rel=stylesheet href=/css/style.min.css><link rel=stylesheet href=/lib/fontawesome-free/all.min.css><link rel=stylesheet href=/lib/animate/animate.min.css><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"End To End Time Series Forecasting Solution","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"http:\/\/frzkhtr.github.io\/projects\/end_2_end_forecating\/"},"genre":"projects","wordcount":195,"url":"http:\/\/frzkhtr.github.io\/projects\/end_2_end_forecating\/","datePublished":"2021-08-04T16:40:50+05:30","dateModified":"2021-08-04T16:40:50+05:30","publisher":{"@type":"Organization","name":"Author"},"author":{"@type":"Person","name":"Author"},"description":""}</script></head>
 <body header-desktop header-mobile><script type=text/javascript>(window.localStorage&&localStorage.getItem('theme')?localStorage.getItem('theme')==='dark':''==='auto'?window.matchMedia('(prefers-color-scheme: dark)').matches:''==='dark')&&document.body.setAttribute('theme','dark')</script>
 <div id=mask></div><div class=wrapper><header class=desktop id=header-desktop>
 <div class=header-wrapper>
@@ -58,6 +58,24 @@ While working on any time series data, we have to go through many Data proproces
 <p>While working on any time series data, we have to go through many Data proprocessing steps followed by statistical tests. Depending on the componenets of timeseries data, one can logically transform the data fit for passing through any forecasting model.
 For ex: If Time series data shows Seasonality, one should go forward with any forecasting model that is not able to handle the seasonlity in Data. Along with that, user have to look for optimum seasonal parameters. This has to be done at every steps of statistical test.</p>
 <p>The solution aims to automate all such things. It will preprocess the data under scope, do required statistical analysis, find optimum parameters, model selection and model tuning all under one hood. It will provide the forecast for the input horizon.</p>
+<p>Preprocessing steps till now:</p>
+<ul>
+<li>Missing data treatments</li>
+<li>Missing dates treatments</li>
+<li>Roll up options</li>
+</ul>
+<p>Statistical Tests till now:
+-White noise in data
+-Check Stationarity(ADF test)
+-Check seaonal component of Data
+-Moving average(p), defferencing, Box-cox Transformation, Autoregressive value(q), lograthmic transformation.</p>
+<p>Models tested till now:</p>
+<ul>
+<li>ARIMA, ARIMAX</li>
+<li>SARIMA, SARIMAX</li>
+<li>Baseline models(SMA, EA)</li>
+<li>LSTM</li>
+</ul>
 <p>Below are the architecture process of software:</p>
 <p><img class=lazyload src=/svg/loading.min.svg data-src=Architecture.png data-srcset="Architecture.png, Architecture.png 1.5x, Architecture.png 2x" data-sizes=auto alt=Architecture.png title=Architecture.png></p>
 </div></div></div>
