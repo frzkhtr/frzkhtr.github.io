@@ -11,6 +11,25 @@ For ex: If Time series data shows Seasonality, one should go forward with any fo
 
 The solution aims to automate all such things. It will preprocess the data under scope, do required statistical analysis, find optimum parameters, model selection and model tuning all under one hood. It will provide the forecast for the input horizon.
 
+
+Preprocessing steps till now:
+- Missing data treatments
+- Missing dates treatments
+- Roll up options
+
+Statistical Tests till now:
+-White noise in data
+-Check Stationarity(ADF test)
+-Check seaonal component of Data
+-Moving average(p), defferencing, Box-cox Transformation, Autoregressive value(q), lograthmic transformation.
+
+Models tested till now:
+- ARIMA, ARIMAX
+- SARIMA, SARIMAX
+- Baseline models(SMA, EA)
+- LSTM
+
+
 Below are the architecture process of software:
 
 ![](Architecture.png)
