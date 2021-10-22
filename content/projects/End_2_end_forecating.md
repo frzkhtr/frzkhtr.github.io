@@ -13,4 +13,4 @@ The solution aims to automate all such things. It will preprocess the data under
 
 Below are the architecture process of software:
 
-![](Architecture.jpg)
+![](Architecture.png)
