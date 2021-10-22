@@ -18,10 +18,10 @@ Preprocessing steps till now:
 - Roll up options
 
 Statistical Tests till now:
--White noise in data
--Check Stationarity(ADF test)
--Check seaonal component of Data
--Moving average(p), defferencing, Box-cox Transformation, Autoregressive value(q), lograthmic transformation.
+- White noise in data
+- Check Stationarity(ADF test)
+- Check seaonal component of Data
+- Moving average(p), defferencing, Box-cox Transformation, Autoregressive value(q), lograthmic transformation.
 
 Models tested till now:
 - ARIMA, ARIMAX
