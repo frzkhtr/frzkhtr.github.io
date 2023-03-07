@@ -10,7 +10,7 @@ theme = "LoveIt"
 
 [params]
   # LoveIt theme version
-  version = "0.108.0"
+  version = "0.2.X"
   description = "Personal Website"
   [params.home]
     # LoveIt NEW | 0.2.0 amount of RSS pages
