@@ -14,7 +14,6 @@ For strategies, I do univariate & multivariate analysis of car features to deter
 
 Apart from this, I also developed the base depreciation model to determine the average depreciation for each fingerprint(make, model, variant, year or MMVY) which also varies based on the state where vehicle was being used.
 
-Inventory management & pricing using AI.
 
 ### Do I always Work?
 
