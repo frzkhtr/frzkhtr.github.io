@@ -12,7 +12,7 @@ I develop Pricing strategy for used cars and implementing it in real time. Deter
 I develop PAN India pricing strategies and model to accurately determine the price which should be assenting to both seller and buyer. 
 For strategies, I do univariate & multivariate analysis of car features to determine its WOE and IV, determining directional impact of features. I developed loss function for model to consume based on its age, state and depreciation; calculating base depreciated price according to current market condition. I developed 2 Pan India pricing models for 2 different products (online selling and pucrchasing based on set of questionnaires; on full inspection details of cars).
 
-Apart from this, I also developed the base depreciation model to determine the average depreciation for each fingerprint(make, model, variant, year or MMVY) which also varies based on the state where vehicle was being used.
+Apart from this, I also developed the base depreciation model to determine the average depreciation for each fingerprint(make, model) which also varies based on the state where vehicle was being used.
 
 
 ### Do I always Work?
