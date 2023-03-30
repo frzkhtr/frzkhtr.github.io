@@ -1,5 +1,5 @@
 ---
-title: "------------Blogs Coming soon---------"
+title: "------------Blogs Coming soon | Stay Tuned---------"
 date: 2023-03-30T22:00:50+05:30
 draft: false
 ---
