@@ -1,6 +1,6 @@
 ---
 title: "------------My Journey of Building a Custom PC: Tips, Tricks and Lessons Learned---------"
-date: 2023-03-30T21:40:50+05:30
+date: 2023-03-30T21:35:50+05:30
 draft: false
 ---
 
