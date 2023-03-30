@@ -32,4 +32,4 @@ Models tested till now:
 
 Below are the architecture process of software:
 
-![](Architecture.png)
+![](Architecture.jpg)
