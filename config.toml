@@ -225,6 +225,30 @@ theme = "LoveIt"
     url = "/about/"
     title = ""
     weight = 1
+  [[menu.main]]
+    identifier = "Drive"
+    pre = ""
+    post = ""
+    name = "Drive"
+    url = "http://192.168.29.121:30006/"
+    title = ""
+    weight = 5
+  [[menu.main]]
+    identifier = "Media"
+    pre = ""
+    post = ""
+    name = "Media"
+    url = "http://192.168.29.121:30004/"
+    title = ""
+    weight = 6
+  [[menu.main]]
+    identifier = "Expense"
+    pre = ""
+    post = ""
+    name = "Expense"
+    url = "http://192.168.29.121:30002/"
+    title = ""
+    weight = 7
 
 # Markup related configuration in Hugo
 [markup]
