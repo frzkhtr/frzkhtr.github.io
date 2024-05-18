@@ -31,7 +31,7 @@ theme = "LoveIt"
       # whether to show social links
       social = true
       # LoveIt NEW | 0.2.0 disclaimer (HTML format is supported)
-      disclaimer = ""
+      disclaimer = "---This is a self hosted website--- /n To learn more, go to blog section"
     # Home page posts
     [params.home.posts]
       enable = false
