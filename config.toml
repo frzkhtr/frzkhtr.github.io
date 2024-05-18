@@ -226,30 +226,21 @@ theme = "LoveIt"
     title = ""
     weight = 1
   [[menu.main]]
-    identifier = "Drive"
+    identifier = "Dashboard"
     pre = ""
     post = ""
-    name = "Drive"
-    url = "http://192.168.29.121:30006/"
+    name = "Dashboard"
+    url = "https://dashboard.farazakhtar.in"
     title = ""
     weight = 5
   [[menu.main]]
-    identifier = "Media"
+    identifier = "Retro"
     pre = ""
     post = ""
-    name = "Media"
-    url = "http://192.168.29.121:30004/"
+    name = "Retro"
+    url = "https://retro.farazakhtar.in"
     title = ""
     weight = 6
-  [[menu.main]]
-    identifier = "Expense"
-    pre = ""
-    post = ""
-    name = "Expense"
-    url = "http://192.168.29.121:30002/"
-    title = ""
-    weight = 7
-
 # Markup related configuration in Hugo
 [markup]
   # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
