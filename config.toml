@@ -23,15 +23,15 @@ theme = "LoveIt"
       # URL of avatar shown in home page
       avatarURL = "/images/profile_pic.jpg"
       # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
-      title = ""
+      title = "Welcome to self hosted website"
       # subtitle shown in home page
-      subtitle = "Data Scientist @ DSlab Cars24"
+      subtitle = "Data Scientist @ Cars24 (Pricing Strategy - India)"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
       social = true
       # LoveIt NEW | 0.2.0 disclaimer (HTML format is supported)
-      disclaimer = "---This is a self hosted website--- \n To learn more, go to blog section"
+      disclaimer = "---This is a self hosted website. To learn more, go to blog section---"
     # Home page posts
     [params.home.posts]
       enable = false
